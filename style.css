@@ -65,6 +65,15 @@ button {
 img {
     width: 50%;
 }
+.main2{
+    justify-content: center;
+    display: flex;
+}
+.places {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
 footer {
     display: flex;
     justify-content: center;

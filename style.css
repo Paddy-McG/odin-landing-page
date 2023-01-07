@@ -62,17 +62,39 @@ button {
     width: 80px;
     height: auto;
 }
-img {
+.fiji {
     width: 50%;
 }
 .main2{
     justify-content: center;
     display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .places {
     font-weight: 900;
     font-size: 36px;
     color: #1F2937;
+    padding: 15px 0px 15px 0px;
+}
+.dif-info {
+    width: 200px;
+    padding: 5px 20px 15px 20px;
+}
+.city {
+    display: flex;
+}
+.img-pref {
+    border-radius: 20px;
+}
+.prefectures {
+    flex-wrap: wrap;
+    text-align: center;
+}
+.head {
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 20px;
 }
 footer {
     display: flex;

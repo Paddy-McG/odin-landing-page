@@ -50,7 +50,7 @@ li {
     color: white;
     padding: 5px 0px 5px 0px;
 }
-button {
+button.sign {
     padding: 5px 5px 5px 5px;
     background-color: #3882F6;
     color: white;
@@ -95,6 +95,44 @@ button {
     color: #1F2937;
     font-weight: 700;
     font-size: 20px;
+}
+.main3 {
+    background-color: #E5E7EB;
+    padding: 50px 450px 50px 450px;
+}
+.speech {
+    font-size: 36px;
+    font-weight: 100;
+}
+.main4 {
+    padding: 20px 350px 20px 350px;
+    color: #E5E7EB;
+}
+.hed {
+    font-weight: bold;
+    font-size: large;
+}
+.sub {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 30px;
+}
+.subtext {
+    flex: 2;
+}
+div.btn {
+    display: flex;
+
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+button.mn {
+    border: 2px solid white;
+    margin: 0px;
 }
 footer {
     display: flex;
